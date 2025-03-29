@@ -176,6 +176,3 @@ cython_debug/
 # Virtual environment
 env
 .env
-
-# Test folder
-flask-test
