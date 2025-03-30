@@ -6,9 +6,9 @@ app = Flask(__name__)
 def day_suffix(day):
     if day in ['01', '21', '31']:
         return "st"
-    elif day == ['02', '22']:
+    elif day in ['02', '22']:
         return "nd"
-    elif day == ['03', '23']:
+    elif day in ['03', '23']:
         return "rd"
     else:
         return "th"
