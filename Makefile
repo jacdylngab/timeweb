@@ -38,5 +38,5 @@ run:
 		echo "    source $(VIRTUAL_ENV)/bin/activate"; \
 		echo "Once the virtual environment is activated, you can run 'make run'."; \
 	else \
-		flask run --host=$(HOST) --port=$(PORT); \
+		FLASK_RUN_HOST=$(HOST) FLASK_RUN_PORT=$(PORT) flask run; \
 	fi
