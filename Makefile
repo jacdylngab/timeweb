@@ -3,7 +3,7 @@ PYCACHE = __pycache__
 PYTESTCACHE = .pytest_cache
 COVERAGEDOTFILE = .coverage
 TESTAPP = test_app.py 
-HOST = 10.92.21.104
+HOST = 0.0.0.0
 PORT = 8089
 
 .PHONY: setup clean test run
