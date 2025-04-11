@@ -2,9 +2,9 @@ VIRTUAL_ENV = env
 PYCACHE = __pycache__
 PYTESTCACHE = .pytest_cache
 COVERAGEDOTFILE = .coverage
-TESTAPP = test_app.py 
+TESTAPP = test_app.py
 HOST = 0.0.0.0
-PORT = 8089
+PORT = 8089 
 
 .PHONY: setup clean test run
 
