@@ -24,4 +24,4 @@ def date_time():
     return formated_current_time
 
 if __name__ == "__main__":
-    app.run(host="10.92.21.104", port=8089)
+    app.run(host="0.0.0.0", port=8089)
